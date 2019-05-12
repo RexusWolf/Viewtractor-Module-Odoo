@@ -1,13 +1,16 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "viewtractor",
+    'name': "Viewtractor",
 
     'summary': """
-       Herencia de template del Home del Sitio Web""",
+       Importa tus estilos de páginas web mediante este módulo""",
 
     'description': """
-       Con este módulo, importamos la página inicial (home) de una página mediante
-       una herencia de template (views/homeview.xml).
+       Mediante este módulo podemos importar templates como vistas en nuestro Sitio Web,
+       consiguiendo así transportar nuestros diseños de páginas web creadas con la herramienta
+       Drag & Drop que nos proporciona Odoo.
+       Además, dispone de dos plantillas, una para modificar la página inicial del Sitio Web
+       y otra para crear una nueva página con el estilo que queramos.
     """,
 
     'author': "rexuswolf",
@@ -16,8 +19,8 @@
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/11.0/odoo/addons/base/module/module_data.xml
     # for the full list
-    'category': 'Importación',
-    'version': '1.0',
+    'category': 'Diseño',
+    'version': '1.0.1',
 
     # any module necessary for this one to work correctly
     'depends': ['base'],

@@ -1,6 +1,6 @@
 <odoo>
     <data>
-       <template id="pagetemplate">
+        <template id="pagetemplate">
             <xpath expr="//div[@id='wrap']" position="replace">
                 <t t-call="website.layout">
                     <div id="wrap" class="oe_structure oe_empty">
