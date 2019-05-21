@@ -4,9 +4,9 @@
             <xpath expr="//div[@id='wrap']" position="replace">
                 <t t-call="website.layout">
                     <div id="wrap" class="oe_structure oe_empty">
-                    <!-- A partir de aquí empieza tu código -->
+                    <!-- Your code starts here -->
                 
-                    <!-- Aquí termina tu código -->
+                    <!-- Your code ends here -->
                     </div>
                 </t>
             </xpath>
